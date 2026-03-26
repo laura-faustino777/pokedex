@@ -1,13 +1,12 @@
 export function Welcome() {
-
-
-
-
   return (
-    <main >
-    <h1>Olá Mundo</h1>
-     <button className="border-2 border-red-600 bg-red-600 hover:cursor-pointer hover:bg-amber-50" onClick={() => console.log("oi")}  >Aperte para dizer oi</button>      
+    <main>
+      
+      <div className="bg-amber-500 justify-center">
+        <h1 className= "align-text-top  ">POKEDEX</h1>
+        <h1 className="justify-self-end align-text-top ">Home Pokemons Tipos</h1>
+      
+      </div>
     </main>
   );
 }
- 
